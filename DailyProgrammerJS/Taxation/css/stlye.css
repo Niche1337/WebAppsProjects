@@ -1,0 +1,48 @@
+.color-primary-0 { color: #236A62 }	/* Main Primary color */
+.color-primary-1 { color: #003A34 }
+.color-primary-2 { color: #005149 }
+.color-primary-3 { color: #5C827E }
+.color-primary-4 { color: #999999 }
+
+body {
+    background-color: #999999;
+    color: #003A34;
+    font-family: 'Playfair Display', serif;
+    padding-left: 15px;
+  }
+ 
+h1,
+h2 {
+    color: #5C827E;
+}  
+  
+ul {
+    list-style: none;
+}
+
+div {
+    border: 2px solid #005149;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#loadValue {
+    width: 12em;
+    display: inline-block;
+    margin-top: 8px;
+    border-radius: 4x;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #236A62;
+    padding: 15px 0;
+    transition: .5s ;
+  }
+  #loadValue:hover {
+    background-color: #999999;
+  }
+  
+  #loadValue:focus {
+    outline: none;
+  }

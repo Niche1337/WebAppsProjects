@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/stlye.css" />
+    <title>Challenge #379</title>
+  </head>
+  <body>
+    <h1>Daily Programmer</h1>
+    <h2>Challenge #379 Progressive Taxation</h2>
+    <div>
+      <p>The nation of Examplania has the following income tax brackets:</p>
+
+      <p>Income cap marginal tax rate:</p>
+      <ul>
+        <li>¤10,000 = 0.00 (0%)</li>
+        <li>¤30,000 = 0.10 (10%)</li>
+        <li>¤100,000 = 0.25 (25%)</li>
+        <li>Ceiling = 0.40 (40%)</li>
+      </ul>
+
+      <p>
+        If you're not familiar with how tax brackets work, see the section below
+        for an explanation.
+      </p>
+
+      <p>
+        A whole-number income amount up to ¤100,000,000, find the amount of tax
+        owed in Examplania. Round down to a whole number of ¤.
+      </p>
+      <p>Examples:</p>
+      <ul>
+        <li>tax(0) =&gt; 0</li>
+        <li>tax(10000) =&gt; 0</li>
+        <li>tax(10009) =&gt; 0</li>
+        <li>tax(10010) =&gt; 1</li>
+        <li>tax(12000) =&gt; 200</li>
+        <li>tax(56789) =&gt; 8697</li>
+        <li>tax(1234567) &gt; 473326</li>
+      </ul>
+    </div>
+
+    <div>
+      <form>
+        <p>Enter Value:</p>
+        <input id="preTaxValue" type="text" name="value" placeholder="E.g 31745" /><br />
+        <button id="loadValue">Submit</button>
+      </form>
+      <p id="taxValue">Value</p>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
