@@ -1,12 +1,25 @@
 header {
-    padding: 2rem 0;
+    margin: 2rem 0;
 }
 
-.featured {
-    height: 500px;
-    background: #F99;
+#featured {
     margin-bottom: 2rem;
 } 
+
+.carousel-item {
+    height: 500px;
+    background: #90F;
+}
+
+.carousel-item:nth-child(2) {
+    background: #67D;
+}
+
+.carousel-item:nth-child(3) {
+    background: #45F;
+}
+
+
 
 .profile-info {
     max-width: 6rem;
